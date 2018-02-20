@@ -1,0 +1,561 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3D1806F1203BBF6A004F776D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D1806F0203BBF6A004F776D /* AppDelegate.swift */; };
+		3D1806F3203BBF6A004F776D /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D1806F2203BBF6A004F776D /* FirstViewController.swift */; };
+		3D1806F5203BBF6A004F776D /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D1806F4203BBF6A004F776D /* SecondViewController.swift */; };
+		3D1806F8203BBF6A004F776D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3D1806F6203BBF6A004F776D /* Main.storyboard */; };
+		3D1806FA203BBF6A004F776D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3D1806F9203BBF6A004F776D /* Assets.xcassets */; };
+		3D1806FD203BBF6A004F776D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3D1806FB203BBF6A004F776D /* LaunchScreen.storyboard */; };
+		3D180708203BBF6A004F776D /* RPS_ProtzmanTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D180707203BBF6A004F776D /* RPS_ProtzmanTests.swift */; };
+		3D180713203BBF6A004F776D /* RPS_ProtzmanUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D180712203BBF6A004F776D /* RPS_ProtzmanUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3D180704203BBF6A004F776D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3D1806E5203BBF6A004F776D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3D1806EC203BBF6A004F776D;
+			remoteInfo = "RPS-Protzman";
+		};
+		3D18070F203BBF6A004F776D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3D1806E5203BBF6A004F776D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3D1806EC203BBF6A004F776D;
+			remoteInfo = "RPS-Protzman";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		3D1806ED203BBF6A004F776D /* RPS-Protzman.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "RPS-Protzman.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3D1806F0203BBF6A004F776D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		3D1806F2203BBF6A004F776D /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
+		3D1806F4203BBF6A004F776D /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
+		3D1806F7203BBF6A004F776D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		3D1806F9203BBF6A004F776D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3D1806FC203BBF6A004F776D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		3D1806FE203BBF6A004F776D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3D180703203BBF6A004F776D /* RPS-ProtzmanTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "RPS-ProtzmanTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3D180707203BBF6A004F776D /* RPS_ProtzmanTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RPS_ProtzmanTests.swift; sourceTree = "<group>"; };
+		3D180709203BBF6A004F776D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3D18070E203BBF6A004F776D /* RPS-ProtzmanUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "RPS-ProtzmanUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3D180712203BBF6A004F776D /* RPS_ProtzmanUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RPS_ProtzmanUITests.swift; sourceTree = "<group>"; };
+		3D180714203BBF6A004F776D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3D1806EA203BBF6A004F776D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3D180700203BBF6A004F776D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3D18070B203BBF6A004F776D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3D1806E4203BBF6A004F776D = {
+			isa = PBXGroup;
+			children = (
+				3D1806EF203BBF6A004F776D /* RPS-Protzman */,
+				3D180706203BBF6A004F776D /* RPS-ProtzmanTests */,
+				3D180711203BBF6A004F776D /* RPS-ProtzmanUITests */,
+				3D1806EE203BBF6A004F776D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3D1806EE203BBF6A004F776D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3D1806ED203BBF6A004F776D /* RPS-Protzman.app */,
+				3D180703203BBF6A004F776D /* RPS-ProtzmanTests.xctest */,
+				3D18070E203BBF6A004F776D /* RPS-ProtzmanUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3D1806EF203BBF6A004F776D /* RPS-Protzman */ = {
+			isa = PBXGroup;
+			children = (
+				3D1806F0203BBF6A004F776D /* AppDelegate.swift */,
+				3D1806F2203BBF6A004F776D /* FirstViewController.swift */,
+				3D1806F4203BBF6A004F776D /* SecondViewController.swift */,
+				3D1806F6203BBF6A004F776D /* Main.storyboard */,
+				3D1806F9203BBF6A004F776D /* Assets.xcassets */,
+				3D1806FB203BBF6A004F776D /* LaunchScreen.storyboard */,
+				3D1806FE203BBF6A004F776D /* Info.plist */,
+			);
+			path = "RPS-Protzman";
+			sourceTree = "<group>";
+		};
+		3D180706203BBF6A004F776D /* RPS-ProtzmanTests */ = {
+			isa = PBXGroup;
+			children = (
+				3D180707203BBF6A004F776D /* RPS_ProtzmanTests.swift */,
+				3D180709203BBF6A004F776D /* Info.plist */,
+			);
+			path = "RPS-ProtzmanTests";
+			sourceTree = "<group>";
+		};
+		3D180711203BBF6A004F776D /* RPS-ProtzmanUITests */ = {
+			isa = PBXGroup;
+			children = (
+				3D180712203BBF6A004F776D /* RPS_ProtzmanUITests.swift */,
+				3D180714203BBF6A004F776D /* Info.plist */,
+			);
+			path = "RPS-ProtzmanUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3D1806EC203BBF6A004F776D /* RPS-Protzman */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3D180717203BBF6A004F776D /* Build configuration list for PBXNativeTarget "RPS-Protzman" */;
+			buildPhases = (
+				3D1806E9203BBF6A004F776D /* Sources */,
+				3D1806EA203BBF6A004F776D /* Frameworks */,
+				3D1806EB203BBF6A004F776D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "RPS-Protzman";
+			productName = "RPS-Protzman";
+			productReference = 3D1806ED203BBF6A004F776D /* RPS-Protzman.app */;
+			productType = "com.apple.product-type.application";
+		};
+		3D180702203BBF6A004F776D /* RPS-ProtzmanTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3D18071A203BBF6A004F776D /* Build configuration list for PBXNativeTarget "RPS-ProtzmanTests" */;
+			buildPhases = (
+				3D1806FF203BBF6A004F776D /* Sources */,
+				3D180700203BBF6A004F776D /* Frameworks */,
+				3D180701203BBF6A004F776D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3D180705203BBF6A004F776D /* PBXTargetDependency */,
+			);
+			name = "RPS-ProtzmanTests";
+			productName = "RPS-ProtzmanTests";
+			productReference = 3D180703203BBF6A004F776D /* RPS-ProtzmanTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		3D18070D203BBF6A004F776D /* RPS-ProtzmanUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3D18071D203BBF6A004F776D /* Build configuration list for PBXNativeTarget "RPS-ProtzmanUITests" */;
+			buildPhases = (
+				3D18070A203BBF6A004F776D /* Sources */,
+				3D18070B203BBF6A004F776D /* Frameworks */,
+				3D18070C203BBF6A004F776D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3D180710203BBF6A004F776D /* PBXTargetDependency */,
+			);
+			name = "RPS-ProtzmanUITests";
+			productName = "RPS-ProtzmanUITests";
+			productReference = 3D18070E203BBF6A004F776D /* RPS-ProtzmanUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3D1806E5203BBF6A004F776D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0920;
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = "Protzman,Hannah R";
+				TargetAttributes = {
+					3D1806EC203BBF6A004F776D = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+					3D180702203BBF6A004F776D = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 3D1806EC203BBF6A004F776D;
+					};
+					3D18070D203BBF6A004F776D = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 3D1806EC203BBF6A004F776D;
+					};
+				};
+			};
+			buildConfigurationList = 3D1806E8203BBF6A004F776D /* Build configuration list for PBXProject "RPS-Protzman" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3D1806E4203BBF6A004F776D;
+			productRefGroup = 3D1806EE203BBF6A004F776D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3D1806EC203BBF6A004F776D /* RPS-Protzman */,
+				3D180702203BBF6A004F776D /* RPS-ProtzmanTests */,
+				3D18070D203BBF6A004F776D /* RPS-ProtzmanUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3D1806EB203BBF6A004F776D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3D1806FD203BBF6A004F776D /* LaunchScreen.storyboard in Resources */,
+				3D1806FA203BBF6A004F776D /* Assets.xcassets in Resources */,
+				3D1806F8203BBF6A004F776D /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3D180701203BBF6A004F776D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3D18070C203BBF6A004F776D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3D1806E9203BBF6A004F776D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3D1806F5203BBF6A004F776D /* SecondViewController.swift in Sources */,
+				3D1806F1203BBF6A004F776D /* AppDelegate.swift in Sources */,
+				3D1806F3203BBF6A004F776D /* FirstViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3D1806FF203BBF6A004F776D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3D180708203BBF6A004F776D /* RPS_ProtzmanTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3D18070A203BBF6A004F776D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3D180713203BBF6A004F776D /* RPS_ProtzmanUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3D180705203BBF6A004F776D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3D1806EC203BBF6A004F776D /* RPS-Protzman */;
+			targetProxy = 3D180704203BBF6A004F776D /* PBXContainerItemProxy */;
+		};
+		3D180710203BBF6A004F776D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3D1806EC203BBF6A004F776D /* RPS-Protzman */;
+			targetProxy = 3D18070F203BBF6A004F776D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		3D1806F6203BBF6A004F776D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3D1806F7203BBF6A004F776D /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		3D1806FB203BBF6A004F776D /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3D1806FC203BBF6A004F776D /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3D180715203BBF6A004F776D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		3D180716203BBF6A004F776D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3D180718203BBF6A004F776D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "RPS-Protzman/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "nwmissouri.edu.RPS-Protzman";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		3D180719203BBF6A004F776D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "RPS-Protzman/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "nwmissouri.edu.RPS-Protzman";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		3D18071B203BBF6A004F776D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "RPS-ProtzmanTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "nwmissouri.edu.RPS-ProtzmanTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RPS-Protzman.app/RPS-Protzman";
+			};
+			name = Debug;
+		};
+		3D18071C203BBF6A004F776D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "RPS-ProtzmanTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "nwmissouri.edu.RPS-ProtzmanTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RPS-Protzman.app/RPS-Protzman";
+			};
+			name = Release;
+		};
+		3D18071E203BBF6A004F776D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "RPS-ProtzmanUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "nwmissouri.edu.RPS-ProtzmanUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "RPS-Protzman";
+			};
+			name = Debug;
+		};
+		3D18071F203BBF6A004F776D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "RPS-ProtzmanUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "nwmissouri.edu.RPS-ProtzmanUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "RPS-Protzman";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3D1806E8203BBF6A004F776D /* Build configuration list for PBXProject "RPS-Protzman" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3D180715203BBF6A004F776D /* Debug */,
+				3D180716203BBF6A004F776D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3D180717203BBF6A004F776D /* Build configuration list for PBXNativeTarget "RPS-Protzman" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3D180718203BBF6A004F776D /* Debug */,
+				3D180719203BBF6A004F776D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3D18071A203BBF6A004F776D /* Build configuration list for PBXNativeTarget "RPS-ProtzmanTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3D18071B203BBF6A004F776D /* Debug */,
+				3D18071C203BBF6A004F776D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3D18071D203BBF6A004F776D /* Build configuration list for PBXNativeTarget "RPS-ProtzmanUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3D18071E203BBF6A004F776D /* Debug */,
+				3D18071F203BBF6A004F776D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3D1806E5203BBF6A004F776D /* Project object */;
+}
