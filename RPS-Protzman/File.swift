@@ -57,9 +57,11 @@ class RockPaperScissors{
                 return "The winner is: Player 1"
             }
             else if player2Choice == .Spock {
+                numPlayer2Wins+=1
                 return "The winner is: Player 2"
             }
             else if player2Choice == .Lizard {
+                numPlayer1Wins+=1
                 return "The winner is: Player 1"
             }
         }
@@ -69,15 +71,18 @@ class RockPaperScissors{
                 return "The winner is: Player 1"
             }
             else if player2Choice == .Paper {
-                return "The winner is: Tie"            }
+                return "The winner is: Tie"
+            }
             else if player2Choice == .Scissors {
                 numPlayer2Wins+=1
                 return "The winner is: Player 2"
             }
             else if player2Choice == .Spock {
+                numPlayer1Wins+=1
                 return "The winner is: Player 1"
             }
             else if player2Choice == .Lizard {
+                numPlayer2Wins+=1
                 return "The winner is: Player 2"
             }
         }
@@ -94,26 +99,31 @@ class RockPaperScissors{
                 return "The winner is: Tie"
             }
             else if player2Choice == .Spock {
+                numPlayer2Wins+=1
                 return "The winner is: Player 2"
             }
             else if player2Choice == .Lizard {
+                numPlayer1Wins+=1
                 return "The winner is: Player 1"
             }
         }
         else if player1Choice == .Spock {
             if player2Choice == .Rock {
+                numPlayer1Wins+=1
                 return "The winner is: Player 1"
             }
             else if player2Choice == .Paper {
                 return "The winner is: Player 2"
             }
             else if player2Choice == .Scissors {
+                numPlayer1Wins+=1
                 return "The winner is: Player 1"
             }
             else if player2Choice == .Spock {
                 return "The winner is: Tie"
             }
             else if player2Choice == .Lizard {
+                numPlayer2Wins+=1
                 return "The winner is: Player 2"
             }
         }
@@ -122,12 +132,15 @@ class RockPaperScissors{
                 return "The winner is: Player 2"
             }
             else if player2Choice == .Paper {
+                numPlayer1Wins+=1
                 return "The winner is: Player 1"
             }
             else if player2Choice == .Scissors {
+                numPlayer2Wins+=1
                 return "The winner is: Player 2"
             }
             else if player2Choice == .Spock {
+                numPlayer1Wins+=1
                 return "The winner is: Player 1"
             }
             else if player2Choice == .Lizard {
