@@ -15,6 +15,16 @@
 		3D1806FD203BBF6A004F776D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3D1806FB203BBF6A004F776D /* LaunchScreen.storyboard */; };
 		3D180708203BBF6A004F776D /* RPS_ProtzmanTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D180707203BBF6A004F776D /* RPS_ProtzmanTests.swift */; };
 		3D180713203BBF6A004F776D /* RPS_ProtzmanUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D180712203BBF6A004F776D /* RPS_ProtzmanUITests.swift */; };
+		3D180721203BC053004F776D /* File.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D180720203BC053004F776D /* File.swift */; };
+		3D180723203BC168004F776D /* ThirdViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D180722203BC168004F776D /* ThirdViewController.swift */; };
+		3D180725203BC408004F776D /* icons8-trophy-25.png in Resources */ = {isa = PBXBuildFile; fileRef = 3D180724203BC408004F776D /* icons8-trophy-25.png */; };
+		3D180727203BC40D004F776D /* icons8-one-finger-25.png in Resources */ = {isa = PBXBuildFile; fileRef = 3D180726203BC40D004F776D /* icons8-one-finger-25.png */; };
+		3D180729203BC410004F776D /* icons8-two-fingers-filled-25.png in Resources */ = {isa = PBXBuildFile; fileRef = 3D180728203BC410004F776D /* icons8-two-fingers-filled-25.png */; };
+		3D18072B203BC415004F776D /* icons8-rock-25.png in Resources */ = {isa = PBXBuildFile; fileRef = 3D18072A203BC415004F776D /* icons8-rock-25.png */; };
+		3D18072D203BC41C004F776D /* icons8-file-25.png in Resources */ = {isa = PBXBuildFile; fileRef = 3D18072C203BC41B004F776D /* icons8-file-25.png */; };
+		3D18072F203BC41F004F776D /* icons8-cut-25 (1).png in Resources */ = {isa = PBXBuildFile; fileRef = 3D18072E203BC41F004F776D /* icons8-cut-25 (1).png */; };
+		3D180731203BC7D6004F776D /* icons8-spock-25.png in Resources */ = {isa = PBXBuildFile; fileRef = 3D180730203BC7D6004F776D /* icons8-spock-25.png */; };
+		3D180733203BC7DA004F776D /* icons8-alligator-25.png in Resources */ = {isa = PBXBuildFile; fileRef = 3D180732203BC7DA004F776D /* icons8-alligator-25.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +59,16 @@
 		3D18070E203BBF6A004F776D /* RPS-ProtzmanUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "RPS-ProtzmanUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		3D180712203BBF6A004F776D /* RPS_ProtzmanUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RPS_ProtzmanUITests.swift; sourceTree = "<group>"; };
 		3D180714203BBF6A004F776D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3D180720203BC053004F776D /* File.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = File.swift; sourceTree = "<group>"; };
+		3D180722203BC168004F776D /* ThirdViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThirdViewController.swift; sourceTree = "<group>"; };
+		3D180724203BC408004F776D /* icons8-trophy-25.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icons8-trophy-25.png"; sourceTree = "<group>"; };
+		3D180726203BC40D004F776D /* icons8-one-finger-25.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icons8-one-finger-25.png"; sourceTree = "<group>"; };
+		3D180728203BC410004F776D /* icons8-two-fingers-filled-25.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icons8-two-fingers-filled-25.png"; sourceTree = "<group>"; };
+		3D18072A203BC415004F776D /* icons8-rock-25.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icons8-rock-25.png"; sourceTree = "<group>"; };
+		3D18072C203BC41B004F776D /* icons8-file-25.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icons8-file-25.png"; sourceTree = "<group>"; };
+		3D18072E203BC41F004F776D /* icons8-cut-25 (1).png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icons8-cut-25 (1).png"; sourceTree = "<group>"; };
+		3D180730203BC7D6004F776D /* icons8-spock-25.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icons8-spock-25.png"; sourceTree = "<group>"; };
+		3D180732203BC7DA004F776D /* icons8-alligator-25.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icons8-alligator-25.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,7 +125,17 @@
 				3D1806F6203BBF6A004F776D /* Main.storyboard */,
 				3D1806F9203BBF6A004F776D /* Assets.xcassets */,
 				3D1806FB203BBF6A004F776D /* LaunchScreen.storyboard */,
+				3D180724203BC408004F776D /* icons8-trophy-25.png */,
+				3D180732203BC7DA004F776D /* icons8-alligator-25.png */,
+				3D180728203BC410004F776D /* icons8-two-fingers-filled-25.png */,
+				3D180730203BC7D6004F776D /* icons8-spock-25.png */,
+				3D180726203BC40D004F776D /* icons8-one-finger-25.png */,
+				3D18072C203BC41B004F776D /* icons8-file-25.png */,
+				3D18072E203BC41F004F776D /* icons8-cut-25 (1).png */,
 				3D1806FE203BBF6A004F776D /* Info.plist */,
+				3D18072A203BC415004F776D /* icons8-rock-25.png */,
+				3D180720203BC053004F776D /* File.swift */,
+				3D180722203BC168004F776D /* ThirdViewController.swift */,
 			);
 			path = "RPS-Protzman";
 			sourceTree = "<group>";
@@ -235,8 +265,16 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3D18072F203BC41F004F776D /* icons8-cut-25 (1).png in Resources */,
+				3D180727203BC40D004F776D /* icons8-one-finger-25.png in Resources */,
+				3D18072B203BC415004F776D /* icons8-rock-25.png in Resources */,
+				3D180733203BC7DA004F776D /* icons8-alligator-25.png in Resources */,
+				3D18072D203BC41C004F776D /* icons8-file-25.png in Resources */,
 				3D1806FD203BBF6A004F776D /* LaunchScreen.storyboard in Resources */,
+				3D180731203BC7D6004F776D /* icons8-spock-25.png in Resources */,
+				3D180729203BC410004F776D /* icons8-two-fingers-filled-25.png in Resources */,
 				3D1806FA203BBF6A004F776D /* Assets.xcassets in Resources */,
+				3D180725203BC408004F776D /* icons8-trophy-25.png in Resources */,
 				3D1806F8203BBF6A004F776D /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -263,6 +301,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				3D1806F5203BBF6A004F776D /* SecondViewController.swift in Sources */,
+				3D180721203BC053004F776D /* File.swift in Sources */,
+				3D180723203BC168004F776D /* ThirdViewController.swift in Sources */,
 				3D1806F1203BBF6A004F776D /* AppDelegate.swift in Sources */,
 				3D1806F3203BBF6A004F776D /* FirstViewController.swift in Sources */,
 			);
